@@ -18,3 +18,5 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+- name: Get docker image latest version
+  uses: luoqiz/docker-images-latest-version@v1.0
